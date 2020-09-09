@@ -1,0 +1,26 @@
+{
+    "name": "test_arcade",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "color-coded-tilemap": "*",
+        "TomatoCube Arcade Sprites": "github:tomatocube18/tomatocube-arcade-sprites#a8a6a06b17616f23698a4e3d73ae086e6596dac5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
